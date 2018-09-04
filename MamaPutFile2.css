@@ -1,0 +1,32 @@
+		
+		
+		table {
+		font-family: segoe ui;
+		text-align: left;
+		float: left;
+		width: 30%;
+		color: red;
+		background-color: yellow;
+		}
+
+		p{
+			color: red;
+		}
+		
+		h1 {
+			text-align: left;
+			margin: auto;
+			color: red;
+		}
+
+		.action {
+		float: bottom;
+		text-align: left;
+		background-color: blue;
+		list-style-type: none;
+		color: white;
+		}
+		
+
+	
+		
