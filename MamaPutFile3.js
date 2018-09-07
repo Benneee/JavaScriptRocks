@@ -11,27 +11,27 @@ var grandTotal = subTotal + delivery + vat;
 /* Updating the old variables in HTML with new variables formed above */
 
 //Get element that has id of usercode & update content
-var code = document.getElementById('usercode');
+var code = document.getElementsById('usercode');
 document.write(code);
 
 //Get element that has id of items & update content
-var elItem = document.getElementById('items');
+var elItem = document.getElementsById('items');
 elItem.innerHTML = item;
 
 //Get element that has id of subTotal & update content
-var elSubTotal = document.getElementById('subTotal');
+var elSubTotal = document.getElementsById('subTotal');
 elSubTotal.innerHTML = '$' + subTotal;
 
 //Get element that has id of delivery & update content
-var elDelivery = document.getElementById('delivery');
+var elDelivery = document.getElementsById('delivery');
 elDelivery.innerHTML = '$' + delivery;
 
 //Get element that has id of vat & update content
-var elVat = document.getElementById('vat');
+var elVat = document.getElementsById('vat');
 elVat.innerHTML = '$' + vat;
 
 //Get element that has id of grandTotal & update content
-var elGrandTotal = document.getElementById('grandTotal');
+var elGrandTotal = document.getElementsById('grandTotal');
 elGrandTotal.innerHTML = '$' + grandTotal;
 
 
